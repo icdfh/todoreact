@@ -1,0 +1,27 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .task-button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .task-button2{
+    background-color: crimson;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .task-button2:hover{
+    background-color: rgb(175, 19, 50);
+  }
+  
